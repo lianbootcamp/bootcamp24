@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.avatar-container {
+    /* Opcional: centrado del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 150px;         /* Ajusta el tamaño según tus necesidades */
+    height: 150px;        /* Mantén el ancho y alto iguales para que sea circular */
+    border-radius: 50%;  /* Esto hace que la imagen sea circular */
+    object-fit: cover;    /* Asegura que la imagen cubra el área del círculo sin distorsionarse */
+    border: 2px solid #ddd; /* Opcional: agregar un borde alrededor de la imagen */
+}
+
+header {
+    background-color: #046b72;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.btn-primary {
+    background-color: #09637e;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+
